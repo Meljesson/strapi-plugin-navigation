@@ -63,6 +63,18 @@
       "plugin": "navigation",
       "configurable": false
     },
+    "NavCover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "CoverURL": {
+      "type": "text"
+    },
     "audience": {
       "collection": "audience",
       "plugin": "navigation"
