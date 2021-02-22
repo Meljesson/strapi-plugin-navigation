@@ -73,7 +73,7 @@
       "required": false
     },
     "CoverURL": {
-      "type": "text"
+      "type": "string"
     },
     "audience": {
       "collection": "audience",
